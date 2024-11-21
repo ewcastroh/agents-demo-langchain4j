@@ -15,7 +15,7 @@ public class AgentsDemoApplication {
         SpringApplication.run(AgentsDemoApplication.class, args);
     }
 
-    @Bean
+    /*@Bean
     CommandLineRunner commandLineRunner(WorkflowService workflowService) {
         return args -> {
             try (Scanner scanner = new Scanner(System.in)) {
@@ -58,5 +58,5 @@ public class AgentsDemoApplication {
                 System.err.println("An unexpected error occurred: " + e.getMessage());
             }
         };
-    }
+    }*/
 }
